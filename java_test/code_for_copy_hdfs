@@ -1,0 +1,8 @@
+#!/bin/bash
+
+hadoop fs -mkdir /user/rmehdiza/test_java_input
+hadoop fs -copyFromLocal sample_files/file* /user/rmehdiza/test_java_input
+hadoop fs -ls /user/rmehdiza/test_java_input
+
+hadoop fs -rmdir /user/rmehdiza/test_java_output
+
