@@ -54,3 +54,8 @@ ssh -C2qTnN -D 8080 username@remote_machine.com
 ```
 
 > https://calomel.org/firefox_ssh_proxy.html
+
+
+After this step you can view hadoop info page in 
+
+> rcg-hadoop-01.rcg.sfu.ca:8088 
